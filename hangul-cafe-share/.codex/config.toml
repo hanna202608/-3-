@@ -1,0 +1,21 @@
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 4
+interrupt_message = true
+
+[agents.jjanggu]
+description = "짱구: 스마일 한국어 웹앱의 HTML 구조, 시맨틱 마크업, 접근성 및 콘텐츠 배치를 담당한다."
+config_file = "agents/jjanggu.toml"
+
+[agents.cheolsu]
+description = "철수: 스마일 한국어 웹앱의 CSS, 반응형 레이아웃, 색상 및 시각적 가독성을 담당한다."
+config_file = "agents/cheolsu.toml"
+
+[agents.hooni]
+description = "훈이: 스마일 한국어 웹앱의 JavaScript 상호작용, 상태, 음성, 번역 및 저장 로직을 담당한다."
+config_file = "agents/hooni.toml"
+
+[agents.maenggu]
+description = "맹구: 스마일 한국어 웹앱의 기능, 모바일 반응형, 접근성 및 회귀 검증을 담당하는 QA 엔지니어다."
+config_file = "agents/maenggu.toml"
+
